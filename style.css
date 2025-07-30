@@ -1,0 +1,180 @@
+/* General */
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+/* Top Navigation */
+.top-nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.logo img {
+    width: 35px;
+    margin-right: 15px;
+}
+
+.search-bar input {
+    background-color: #242424;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    width: 250px;
+    color: white;
+}
+
+.top-links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.top-links .signup {
+    font-weight: bold;
+}
+
+.top-links .login {
+    background-color: white;
+    color: black;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+.divider {
+    color: #555;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #000;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 20px;
+}
+
+.sidebar-card {
+    background-color: #181818;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 15px;
+}
+
+.sidebar-card p {
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.sidebar-card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.trending, .popular-artists {
+    margin-bottom: 30px;
+}
+
+.trending h2, .popular-artists h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    width: 140px;
+    background-color: #181818;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card p {
+    margin: 8px 0 0;
+    font-size: 14px;
+}
+
+/* Artists */
+.artist-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.artist {
+    text-align: center;
+}
+
+.artist img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.artist p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer-banner {
+    background: linear-gradient(90deg, #af2896, #509bf5);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-banner button {
+    background-color: white;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
